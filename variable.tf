@@ -1,5 +1,5 @@
 variable "resourceGroupName" {
-    type = string  
+    type = string
 }
 
 variable "location" {
@@ -7,13 +7,13 @@ variable "location" {
 }
 
 variable "tags" {
-    type = map(any)  
+    type = map(any)
 }
 
 variable "vnetname" {
-    type = string 
+    type = string
 }
 
 variable "subnetname" {
-    type = string  
+    type = string
 }
