@@ -30,3 +30,8 @@ variable "nicname" {
     type = string
   
 }
+
+variable "virtualMachine" {
+    type = string
+  
+}
